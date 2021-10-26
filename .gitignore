@@ -1,0 +1,48 @@
+# operating-system
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Logtalk distribution files and directories
+/TODO.txt
+/docs/*.info
+/manuals/*.pdf
+/manuals/*.epub
+/manuals/*.info
+
+# Logtalk automated documenting and testing logs
+logtalk_tester_logs/
+logtalk_doclet_logs/
+
+# Logtalk temporary file directories
+.lgt_tmp/
+lgt_tmp/
+
+# Prolog compiler temporary files
+.pl-history
+*.out
+*.xwam
+*.qo
+*.ql
+*.itf
+*.po
+
+# Text editors
+.tm_properties
+*~
+
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# IntelliJ
+*.iml
+.idea/
+# codeStylesettings is influenced by local plugins
+.idea/codeStyleSettings.xml
+
