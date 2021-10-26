@@ -16,10 +16,16 @@ To add this pack registry to your system, start Logtalk with your favorite Prolo
 
 ?- packs::available(talkshow).
 ...
+```
 
-?- packs::describe(...).
+To look into a pack details, e.g. `bacon`, and then install it:
+
+```text
+?- packs::describe(bacon).
 ...
 
-?- packs::install(...).
+?- packs::install(bacon).
 ...
 ```
+
+See the packs home pages for more details.
