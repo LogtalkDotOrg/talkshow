@@ -24,7 +24,7 @@
 	:- info([
 		version is 1:0:0,
 		author is 'Paulo Moura',
-		date is 2021-101-26,
+		date is 2021-10-26,
 		comment is 'A registry of Logtalk packs from various sources.'
 	]).
 
