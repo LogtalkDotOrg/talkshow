@@ -32,6 +32,8 @@
 
 	description('Logtalk stable versions made available as packs for virtual environments').
 
+	license('Apache-2.0').
+
 	home('https://logtalk.org').
 
 	version(
