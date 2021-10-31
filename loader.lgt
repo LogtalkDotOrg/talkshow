@@ -23,5 +23,5 @@
 	logtalk_load(talkshow_registry),
 	logtalk_load(bacon_pack),
 	logtalk_load(lflat_pack),
-	logtalk_load(logtalk)
+	logtalk_load(logtalk_pack)
 )).
