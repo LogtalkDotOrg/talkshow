@@ -19,6 +19,16 @@ To add this pack registry to your system, start Logtalk with your favorite Prolo
 ...
 ```
 
+Later, to update the registry and list any outdated packs:
+
+```text
+?- registries::update(talkshow).
+...
+
+?- packs::outdated.
+...
+```
+
 To look into a pack details, e.g. `bacon`, and then install and load it:
 
 ```text
@@ -29,6 +39,7 @@ To look into a pack details, e.g. `bacon`, and then install and load it:
 ...
 
 ?- {bacon(loader)}.
+...
 ```
 
 See the packs home pages for more details.
