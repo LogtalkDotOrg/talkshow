@@ -19,7 +19,7 @@ To add this pack registry to your system, start Logtalk with your favorite Prolo
 ...
 ```
 
-To look into a pack details, e.g. `bacon`, and then install it:
+To look into a pack details, e.g. `bacon`, and then install and load it:
 
 ```text
 ?- packs::describe(bacon).
@@ -27,6 +27,8 @@ To look into a pack details, e.g. `bacon`, and then install it:
 
 ?- packs::install(bacon).
 ...
+
+?- {bacon(loader)}.
 ```
 
 See the packs home pages for more details.
