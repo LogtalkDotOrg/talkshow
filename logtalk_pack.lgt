@@ -22,9 +22,9 @@
 	implements(pack_protocol)).
 
 	:- info([
-		version is 1:1:0,
+		version is 1:2:0,
 		author is 'Paulo Moura',
-		date is 2022-02-12,
+		date is 2022-06-27,
 		comment is 'Logtalk stable versions made available as packs for virtual environments.'
 	]).
 
@@ -35,6 +35,33 @@
 	license('Apache-2.0').
 
 	home('https://logtalk.org').
+
+	version(
+		3:56:0,
+		stable,
+		'https://github.com/LogtalkDotOrg/logtalk3/archive/refs/tags/lgt3560stable.tar.gz',
+		sha256 - '6ae4dd335fbccc8a86c20ff84d2156608ddf5e6d9c0582934bb606ec065fc56b',
+		[],
+		all
+	).
+
+	version(
+		3:55:0,
+		stable,
+		'https://github.com/LogtalkDotOrg/logtalk3/archive/refs/tags/lgt3550stable.tar.gz',
+		sha256 - '401158167d18b2f6f48f1e2fa953f6398e8b7ec315c40cb42e290b33c3e0121f',
+		[],
+		all
+	).
+
+	version(
+		3:54:0,
+		stable,
+		'https://github.com/LogtalkDotOrg/logtalk3/archive/refs/tags/lgt3540stable.tar.gz',
+		sha256 - '6ccb72bd08a44ce28b75fb4a9f74fd34f7a1f4f57a0ba6158b876cf04c0cb34a',
+		[],
+		all
+	).
 
 	version(
 		3:53:0,
