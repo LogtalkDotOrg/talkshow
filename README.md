@@ -42,4 +42,5 @@ To look into a pack details, e.g. `bacon`, and then install and load it:
 ...
 ```
 
-See the packs home pages for more details.
+Most packs can be tested (after installation) by loading their `tester.lgt`
+(or `tester.logtalk`) file. See the packs home pages for more details.
