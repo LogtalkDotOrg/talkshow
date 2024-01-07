@@ -1,6 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-%  This file is part of Logtalk <https://logtalk.org/>
 %  Copyright 1998-2021 Paulo Moura <pmoura@logtalk.org>
 %  SPDX-License-Identifier: Apache-2.0
 %
@@ -19,10 +18,31 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-:- initialization((
-	logtalk_load(talkshow_registry),
-	logtalk_load(bacon_pack),
-	logtalk_load(graphplan_pack),
-	logtalk_load(lflat_pack),
-	logtalk_load(logtalk_pack)
-)).
+:- object(graphplan_pack,
+	implements(pack_protocol)).
+
+	:- info([
+		version is 1:0:0,
+		author is 'Paulo Moura',
+		date is 2024-01-07,
+		comment is 'Pack manifest file for "graphplan", a port of the Prolog GraphPlan Project to Logtalk.'
+	]).
+
+	name(graphplan).
+
+	description('graphplan- Logtalk port of the Prolog GraphPlan Project').
+
+	license('GPLv3').
+
+	home('https://github.com/pmoura/graphplan').
+
+	version(
+		1:0:0,
+		stable,
+		'https://github.com/pmoura/graphplan/archive/refs/tags/v1.0.0.tar.gz',
+		sha256 - 'baf68a684719075d18dc5f3b71c78290405fec27660b7ee6093e6ff0c6d11d7e',
+		[logtalk @>= 3:36:0],
+		all
+	).
+
+:- end_object.

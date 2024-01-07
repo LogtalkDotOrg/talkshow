@@ -3,6 +3,7 @@
 A registry of Logtalk packs from various sources:
 
 - [Bacon - A System for Scientific Discovery](https://github.com/lindseyspratt/bacon-logtalk)
+- [Graphplan - A port of the Prolog GraphPlan Project](https://github.com/pmoura/graphplan)
 - [L-FLAT - Logtalk Formal Language and Automata Toolkit](https://github.com/l-flat/lflat)
 - [Logtalk - Logtalk stable versions as packs for use in virtual environments](https://logtalk.org)
 
