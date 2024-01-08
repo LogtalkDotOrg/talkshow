@@ -22,9 +22,9 @@
 	implements(pack_protocol)).
 
 	:- info([
-		version is 1:0:0,
+		version is 1:1:0,
 		author is 'Paulo Moura',
-		date is 2024-01-07,
+		date is 2024-01-08,
 		comment is 'Pack manifest file for "graphplan", a port of the Prolog GraphPlan Project to Logtalk.'
 	]).
 
@@ -35,6 +35,15 @@
 	license('GPLv3').
 
 	home('https://github.com/pmoura/graphplan').
+
+	version(
+		1:1:0,
+		stable,
+		'https://github.com/pmoura/graphplan/archive/refs/tags/v1.1.0.tar.gz',
+		sha256 - '2766926aaf0e53517e4b78a9921426d360e99c6d13a475c1aba54172830f6d9a',
+		[logtalk @>= 3:36:0],
+		all
+	).
 
 	version(
 		1:0:0,
