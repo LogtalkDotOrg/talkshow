@@ -22,9 +22,9 @@
 	implements(pack_protocol)).
 
 	:- info([
-		version is 1:17:0,
+		version is 1:18:0,
 		author is 'Paulo Moura',
-		date is 2024-03-19,
+		date is 2024-09-07,
 		comment is 'Logtalk stable versions made available as packs for virtual environments.'
 	]).
 
@@ -35,6 +35,60 @@
 	license('Apache-2.0').
 
 	home('https://logtalk.org').
+
+	version(
+		3:82:0,
+		stable,
+		'https://github.com/LogtalkDotOrg/logtalk3/archive/refs/tags/lgt3820stable.tar.gz',
+		sha256 - 'e1371373fe44c58b4192b8cf09ed202cba14a8e83de1137a2c3921c329eb9ef0',
+		[],
+		all
+	).
+
+	version(
+		3:81:0,
+		stable,
+		'https://github.com/LogtalkDotOrg/logtalk3/archive/refs/tags/lgt3810stable.tar.gz',
+		sha256 - 'c9516e8ff541bec50c59ff363958793b92d28aa013365676f44e97615ff0754d',
+		[],
+		all
+	).
+
+	version(
+		3:80:0,
+		stable,
+		'https://github.com/LogtalkDotOrg/logtalk3/archive/refs/tags/lgt3800stable.tar.gz',
+		sha256 - '5eb8d220b3fa18866fabd28b854579bf56f06c2874ffe2eb3e9598c94ba1101c',
+		[],
+		all
+	).
+
+	version(
+		3:79:0,
+		stable,
+		'https://github.com/LogtalkDotOrg/logtalk3/archive/refs/tags/lgt3790stable.tar.gz',
+		sha256 - 'cf864054c26e946b88ce850759596ea687a64d885689ffceb2b3c641a63d6e7f',
+		[],
+		all
+	).
+
+	version(
+		3:78:0,
+		stable,
+		'https://github.com/LogtalkDotOrg/logtalk3/archive/refs/tags/lgt3780stable.tar.gz',
+		sha256 - '192571b170f20c3ba43013242b330de555c813cec10841832548beb8bd184fc1',
+		[],
+		all
+	).
+
+	version(
+		3:77:0,
+		stable,
+		'https://github.com/LogtalkDotOrg/logtalk3/archive/refs/tags/lgt3770stable.tar.gz',
+		sha256 - 'ec6db5b01d90001eedbe654688b483e778b9157d96019a412ce4a017f76b4dc8',
+		[],
+		all
+	).
 
 	version(
 		3:76:0,
