@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-%  Copyright 1998-2021 Paulo Moura <pmoura@logtalk.org>
+%  Copyright 1998-2024 Paulo Moura <pmoura@logtalk.org>
 %  SPDX-License-Identifier: Apache-2.0
 %
 %  Licensed under the Apache License, Version 2.0 (the "License");
@@ -22,9 +22,9 @@
 	implements(pack_protocol)).
 
 	:- info([
-		version is 1:0:0,
+		version is 1:1:0,
 		author is 'Paulo Moura',
-		date is 2021-10-21,
+		date is 2024-11-07,
 		comment is 'Pack manifest file for L-FLAT - Logtalk Formal Language and Automata Toolkit.'
 	]).
 
@@ -37,11 +37,20 @@
 	home('https://github.com/l-flat/lflat').
 
 	version(
+		2:1:2,
+		stable,
+		'https://github.com/l-flat/lflat/archive/refs/tags/v2.1.2.tar.gz',
+		sha256 - 'd2b0389f975e84c261de13f6a05f37b3701486091ee1729540251844af8554ac',
+		[logtalk @>= 3:57:0],
+		all
+	).
+
+	version(
 		2:1:0,
 		stable,
 		'https://github.com/l-flat/lflat/archive/refs/tags/v2.1.0.tar.gz',
 		sha256 - '9c298c2a08c4e2a1972c14720ef1498e7f116c7cd8bf7702c8d22d8ff549b6a1',
-		[logtalk @>= 3:36:0],
+		[logtalk @>= 3:36:0, logtalk @< 3:57:0],
 		all
 	).
 
