@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-%  Copyright 1998-2021 Paulo Moura <pmoura@logtalk.org>
+%  Copyright 1998-2025 Paulo Moura <pmoura@logtalk.org>
 %  SPDX-License-Identifier: Apache-2.0
 %
 %  Licensed under the Apache License, Version 2.0 (the "License");
@@ -22,9 +22,9 @@
 	implements(pack_protocol)).
 
 	:- info([
-		version is 1:19:0,
+		version is 1:20:0,
 		author is 'Paulo Moura',
-		date is 2024-10-29,
+		date is 2025-01-13,
 		comment is 'Logtalk stable versions made available as packs for virtual environments.'
 	]).
 
@@ -35,6 +35,33 @@
 	license('Apache-2.0').
 
 	home('https://logtalk.org').
+
+	version(
+		3:87:0,
+		stable,
+		'https://github.com/LogtalkDotOrg/logtalk3/archive/refs/tags/lgt3870stable.tar.gz',
+		sha256 - '3d4d832370ea9ea841fc193656f5e7d6415c877c94e48322aeb8ded1beacf9d2',
+		[],
+		all
+	).
+
+	version(
+		3:86:0,
+		stable,
+		'https://github.com/LogtalkDotOrg/logtalk3/archive/refs/tags/lgt3860stable.tar.gz',
+		sha256 - 'e148b618e29e02c5b089947fe17b0d33ed0f7811503f02aae0615034059c2dd3',
+		[],
+		all
+	).
+
+	version(
+		3:85:0,
+		stable,
+		'https://github.com/LogtalkDotOrg/logtalk3/archive/refs/tags/lgt3850stable.tar.gz',
+		sha256 - 'a4bde9c8a574363c658e30e72be152bd89a7a227f319ad56d36096abd49df3e5',
+		[],
+		all
+	).
 
 	version(
 		3:84:0,
