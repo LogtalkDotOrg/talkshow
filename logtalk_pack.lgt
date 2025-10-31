@@ -22,9 +22,9 @@
 	implements(pack_protocol)).
 
 	:- info([
-		version is 1:20:0,
+		version is 1:21:0,
 		author is 'Paulo Moura',
-		date is 2025-01-13,
+		date is 2025-10-31,
 		comment is 'Logtalk stable versions made available as packs for virtual environments.'
 	]).
 
@@ -35,6 +35,78 @@
 	license('Apache-2.0').
 
 	home('https://logtalk.org').
+
+	version(
+		3:95:0,
+		stable,
+		'https://github.com/LogtalkDotOrg/logtalk3/archive/refs/tags/lgt3950stable.tar.gz',
+		sha256 - 'b718abbaae648b902534c47c80da3b908b1588c743507701be37cf97f533828c',
+		[],
+		all
+	).
+
+	version(
+		3:94:0,
+		stable,
+		'https://github.com/LogtalkDotOrg/logtalk3/archive/refs/tags/lgt3940stable.tar.gz',
+		sha256 - '36f68dfbbc617cbf0bd370b15b324d308f021e211009f8c45133224c2ca9df09',
+		[],
+		all
+	).
+
+	version(
+		3:93:0,
+		stable,
+		'https://github.com/LogtalkDotOrg/logtalk3/archive/refs/tags/lgt3930stable.tar.gz',
+		sha256 - '6b8ac9a74bd7be7d28a52580572ed11dd22b9323eadf927695f5f0afea13d315',
+		[],
+		all
+	).
+
+	version(
+		3:92:0,
+		stable,
+		'https://github.com/LogtalkDotOrg/logtalk3/archive/refs/tags/lgt3920stable.tar.gz',
+		sha256 - '029eca6bc6296677a9c2882937a8648f7cf858fd432f1ddbfc1f4d219555cb77',
+		[],
+		all
+	).
+
+	version(
+		3:91:0,
+		stable,
+		'https://github.com/LogtalkDotOrg/logtalk3/archive/refs/tags/lgt3910stable.tar.gz',
+		sha256 - '77d327b939afd1e67e69adfeb4646e5fb83408508d48d55ae36802eb653c0de8',
+		[],
+		all
+	).
+
+	version(
+		3:90:0,
+		stable,
+		'https://github.com/LogtalkDotOrg/logtalk3/archive/refs/tags/lgt3900stable.tar.gz',
+		sha256 - 'bfad817d96ca3fd5208a833d1672390d75bf40fef3a00b473469811306f4e20b',
+		[],
+		all
+	).
+
+	version(
+		3:89:0,
+		stable,
+		'https://github.com/LogtalkDotOrg/logtalk3/archive/refs/tags/lgt3890stable.tar.gz',
+		sha256 - '78174128b65713c1ba33b8c3249cafd9fcc36d175bd077946cdb928693505e2b',
+		[],
+		all
+	).
+
+	version(
+		3:88:0,
+		stable,
+		'https://github.com/LogtalkDotOrg/logtalk3/archive/refs/tags/lgt3880stable.tar.gz',
+		sha256 - '00f3449aa96772bdac2ab21e8c7b56b52af3ee28efbf33636a50f51a49e6c6d5',
+		[],
+		all
+	).
 
 	version(
 		3:87:0,
